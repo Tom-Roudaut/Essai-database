@@ -3,7 +3,7 @@ import pandas as pd
 import openai
 
 # Configurez votre clé API OpenAI
-openai.api_key = 'sk-proj-rrkq0z6BsuwuThCqtH9kT3BlbkFJLtDVAOyWW0zJNtm4fKTl'
+openai.api_key = st.secrets["OPENAI_API_KEY"]
 
 # Chemin vers le fichier Excel stocké
 EXCEL_FILE_PATH = '/Users/sachadoliner/Desktop/NeumannGPT - fichier import fonds - 17.07.xlsx'
